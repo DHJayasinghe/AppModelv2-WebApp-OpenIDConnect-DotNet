@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Maintenance.API</name>
+    </assembly>
+    <members>
+        <member name="M:Maintenance.API.Controllers.PostsController.GetList">
+            <summary>
+            List all posts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Maintenance.API.Controllers.PostsController.Get(System.Int32)">
+            <summary>
+            Get posts by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Maintenance.API.Controllers.PostsController.GetComments(System.Int32)">
+            <summary>
+            Get comments related to a post
+            </summary>
+            <param name="postId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
